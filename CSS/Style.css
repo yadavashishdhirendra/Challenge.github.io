@@ -8,6 +8,11 @@
     src: url('../Fonts/Poppins-Medium.ttf');
 }
 
+@font-face {
+    font-family: Poppins__Regular;
+    src: url('../Fonts/Poppins-Regular.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -108,6 +113,7 @@ h1 {
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
+    font-family: 'Poppins__Regular';
 }
 
 .Button button:hover {
